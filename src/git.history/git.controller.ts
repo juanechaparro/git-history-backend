@@ -4,9 +4,9 @@ import axios, { AxiosResponse } from 'axios';
 @Controller('git')
 export class GitController {
   private readonly apiUrl =
-    'https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO_NAME/commits';
+    'https://api.github.com/repos/juanechaparro/git-history-front/commits';
   private readonly headers = {
-    'User-Agent': 'nestjs-app', // Asegura que se envía un User-Agent válido
+    'User-Agent': 'nestjs-app',
   };
 
   @Get()

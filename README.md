@@ -1,3 +1,18 @@
+# Git Commit History App
+
+This is a simple application that displays the commit history from a GitHub repository.
+
+## Backend (NestJS)
+
+1. Install dependencies:
+cd backend
+npm install
+2. Run the backend server:
+npm run start or npm run start:dev
+The backend will run on `http://localhost:3000`.
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
